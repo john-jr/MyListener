@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class ClienteBD {
     
-    private static String caminho = "E:\\Trabalho GTI\\MyListener\\" ;
+    private static String caminho = "C:\\Users\\Programaçao\\Desktop\\My Listener\\MyListener01" ;
     
     private static ArrayList<Cliente> lista = new ArrayList<Cliente>();
     public static char inserir(Cliente cliente){
@@ -32,8 +32,7 @@ public class ClienteBD {
             }
             return 'C'; //retorna sucesso - cadastrado
         }catch(Exception ex){
-            System.out.println(ex.getMessage());
-            ex.printStackTrace();
+           
             return 'E'; //retorna erro - exceção
         }
     }
@@ -112,21 +111,16 @@ public class ClienteBD {
     }
     
     
-    public static Cliente procuraSessao(String login,String Senha){
+    public static boolean procuraSessao(String login,String Senha){
         lerXml();
-       Cliente Cuser = null;
+       
         for(int i=0; i < lista.size(); i++){
             Cliente C = lista.get(i);
-            
-            //procura o cliente que tem o CPF igual 
-            //Ã  variÃ¡vel "cpf", que tÃ¡ chegando entre
-            //os parÃªnteses
             if (C.getUsuario().equals(login) && C.getSenha().equals(Senha)){
-                Cuser = C;
-                break;
+                return true;
             }
         }
-        return Cuser;
+        return false;
         
     }
 }

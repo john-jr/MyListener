@@ -43,7 +43,7 @@
                 <ul class="nav navbar-nav navbar-right ml-auto">
                     <li class="nav-item"><a href="#" class="nav-link">Minhas Playlists</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Minha Conta</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sair</a></li>
+                    <li class="nav-item"><a href="index_1.jsp" class="nav-link">Sair</a></li>
                     <li class="navbar-form-wrapper">
                        
                     </li>

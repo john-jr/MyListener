@@ -123,6 +123,7 @@
                                     }, {
                                         type: 'success'
                                     });
+                                    
                                 }else if(data.message == "EQUALUSER"){
                                     $.notify({
                                         message: 'Já existe um usuário com este e-mail'

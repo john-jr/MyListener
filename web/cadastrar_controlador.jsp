@@ -31,6 +31,7 @@
     } catch (Exception excecao) {
 
         json.put("message", "EXCEPTION_err");
+       
 
     }
     out.println(json.toString());

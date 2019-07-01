@@ -2,15 +2,15 @@
 <%@page import="persistencia.ClienteBD"%>
 <%@page import="dominio.Cliente"%>
 <%
-      response.setContentType("application/json");
+ response.setContentType("application/json");
     
     String usuario = request.getParameter("user");
     String senha = request.getParameter("senha");
     
     JSONObject json = new JSONObject();  
     try {
-     Cliente C = ClienteBD.procuraSessao(usuario, senha);
-     if(C != null){
+     boolean C = ClienteBD.procuraSessao(usuario, senha);
+     if(C == true){
          json.put("message", "SESSION");
      }
      else{
@@ -19,7 +19,7 @@
     } catch (Exception excecao) {
 
         json.put("message", "EXCEPTION_err");
-
+          
     }
-
+ out.println(json.toString());
     %>
