@@ -12,6 +12,7 @@
      boolean C = ClienteBD.procuraSessao(usuario, senha);
      if(C == true){
          json.put("message", "SESSION");
+         
      }
      else{
          json.put("message", "USERNOTFOUND");

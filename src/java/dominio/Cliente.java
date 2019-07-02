@@ -5,7 +5,7 @@ public class Cliente {
     private String usuario;
     private String email;
     private String senha;
-    
+   
 
     public int getCodigo() {
         return codigo;
@@ -38,6 +38,7 @@ public class Cliente {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
 
   
     

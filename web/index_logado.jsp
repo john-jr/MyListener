@@ -38,7 +38,7 @@
                     <li class="nav-item"><a href="index_logado.jsp" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Playlists</a></li>			
 
-                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="Contato_logado.jsp" class="nav-link">Contato</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right ml-auto">
                     <li class="nav-item"><a href="#" class="nav-link">Minhas Playlists</a></li>

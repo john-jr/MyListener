@@ -120,6 +120,9 @@
                                     }, {
                                         type: 'success'
                                     });
+                                   
+                                    
+                                    
                                    location.href = "index_logado.jsp";
                                 }
                                 else if(data.message == "USERNOTFOUND"){
