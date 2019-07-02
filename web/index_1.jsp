@@ -39,7 +39,7 @@
             <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
                 <ul class="nav navbar-nav">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Playlists</a></li>			
+                    <li class="nav-item"><a href="Playlist.jsp" class="nav-link">Playlists</a></li>			
 
                     <li class="nav-item"><a href="Contato.jsp" class="nav-link">Contato</a></li>
                 </ul>

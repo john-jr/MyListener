@@ -142,4 +142,85 @@ body{
 }
 #novoSom{
     text-align: center;
+
 }
+
+#slider .ui-slider-range { background: rgba(32, 84, 241, 0.76);  box-shadow: 0 4px 6px 1px rgba(32, 84, 241, 0.43);}
+           #slider .ui-slider-handle { border-color: rgba(32, 84, 241, 0.43); box-shadow: 0 4px 6px 1px rgba(32, 84, 241, 0.62);} 
+            
+           
+           
+
+            .tamanho{
+              font-size: 1.8em;
+              color: #fff;
+            }
+
+            .tamanho a{
+             font-style: none;
+              color: #fff;
+            }
+           
+            .todo-player{
+              height: 120px;
+              position: fixed;
+              bottom: 0;
+              width: 100%;
+              background-color: #15202B;
+            }
+            
+            .player-view{
+                position: absolute;
+                z-index: 9999;
+                margin-left: 25%;
+                margin-bottom: 120px;
+            }
+            
+            .sumir{
+               display:none;
+            }
+
+
+                          .card{
+     color: #fff;
+      background: #15202B;
+      border: 1px solid;
+      border-color: #c7bdbd40;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px 1px rgba(32, 84, 241, 0.43);
+      overflow: hidden;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 15px;
+}
+
+.li-music{
+    list-style: none;
+}
+.li-music a{
+    
+    font-size: 1.5em;
+}
+
+
+ 
+
+              
+
+    pre{
+      font-family: 'Montserrat', sans-serif;
+      color:#fff;
+      text-align: justify;
+      background: transparent;
+      text-align: center;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    span{
+      color:#fff;
+      text-align: center;
+    }
+
+
